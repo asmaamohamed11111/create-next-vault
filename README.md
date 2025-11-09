@@ -107,15 +107,15 @@ Licensed under the MIT License — see the LICENSE
 
 Omkar Bagul — @youknowom
 
-💼 GitHub
+💼 GitHub: https://github.com/youknowom
 
-🔗 LinkedIn
+🔗 LinkedIn: https://www.linkedin.com/in/omkar-bagul
 
+---
 ⚡ Upcoming (v0.2.0)
 
 🚀 --fast flag for instant, non-interactive setup
 
 📦 Option to use pnpm or bun for faster installs
 
-🧠 Predefined templates (Tailwind-only, shadcn-minimal, etc.)
 ```
