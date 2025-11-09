@@ -7,7 +7,13 @@ import { execa } from "execa";
 import fs from "fs-extra";
 import path from "path";
 import ora from "ora";
-import pkg from "./package.json" assert { type: "json" };
+import { fileURLToPath } from "url";
+
+// ✅ Fix for Node 22+ JSON import
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const pkgPath = path.join(__dirname, "package.json");
+const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"));
 
 const banner = () => {
   const text = figlet.textSync("NEXT VAULT", { horizontalLayout: "full" });
