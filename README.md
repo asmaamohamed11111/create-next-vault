@@ -155,13 +155,6 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 Omkar Bagul — youknowom
 
 GitHub: https://github.com/youknowom
-LinkedIn: https://www.linkedin.com/in/omkar-bagul (optional)
+LinkedIn: https://www.linkedin.com/in/omkar-bagul
 
 ---
-
-If you'd like, I can also:
-
-- Add a small screenshot or GIF to the README (you can upload an image to this repo and I will wire it in).
-- Produce an example `index.js` / CLI output update to match the branding and emojis you used earlier.
-
-Would you like me to commit these changes to a branch and open a PR, or apply them directly to `main`?
