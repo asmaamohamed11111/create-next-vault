@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"No tests defined\" && exit 0"
+    "test": "echo \"No tests defined\" && exit 0",
+    "release": "npm version patch && git push origin main --tags && npm publish --access public"
   },
   "author": "Omkar Bagul <youknowom@users.noreply.github.com>",
   "license": "MIT",
